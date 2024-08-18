@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Price Range Slider</title>
+</head>
+<body>
+    <div class="main">
+        <div class="custom-wrapper">
+            <div class="header">
+                <h1>Price Range Slider</h1>
+            </div>
+
+            <!-- Content -->
+            <div class="price-input-container">
+                <div class="price-input">
+                    <div class="price-field">
+                        <span>Min</span>
+                        <input type="number" class="min-input" value="100">
+                    </div>
+                    <div class="price-field">
+                        <span>Max</span>
+                        <input type="number" class="max-input" value="850">
+                    </div>
+                </div>
+                    
+                <div class="slider-container">
+                    <div class="price-slider">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="range-input">
+                <input type="range" class="min-range" min="0" max="1000" value="100" step="1">
+                <input type="range" class="max-range" min="0" max="1000" value="850" step="1">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
