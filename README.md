@@ -1,3 +1,6 @@
+
+<img width="540" alt="Screenshot 2024-08-28 at 17 17 08" src="https://github.com/user-attachments/assets/ee7f8872-db88-46ab-8658-3d0399b3b5d2">
+
 # Price Range Slider
 
 This project is a simple web application that implements a price range slider. Users can set minimum and maximum price values through both input fields and a draggable slider. The application ensures that the selected price range respects a minimum gap and stays within the specified range.
